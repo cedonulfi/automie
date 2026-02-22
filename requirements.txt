@@ -1,0 +1,5 @@
+playwright>=1.40.0
+python-dotenv>=1.0.0
+google-generativeai>=0.3.0
+sqlalchemy>=2.0.0
+streamlit>=1.30.0

@@ -1,0 +1,50 @@
+# ==========================================
+# Automie .gitignore
+# ==========================================
+
+# 1. Environment Variables & Secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+
+# 2. Automie Specific Folders (User Data)
+sessions/
+temp_media/
+last_action.png
+
+# 3. Database Files (Local SQLite)
+*.db
+*.sqlite
+*.sqlite3
+automie.db
+
+# 4. Python Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# 5. Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 6. Streamlit Cache
+.streamlit/
+!.streamlit/config.toml
+
+# 7. OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 8. IDE & Editor Folders
+.vscode/
+.idea/
+*.swp
+*.swo

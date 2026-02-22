@@ -125,5 +125,3 @@ Automie is actively evolving! Here is what is coming next:
 ## 📄 Licensee
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-```

@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🤖 Automie: AI-Powered Social Media Automation Engine
 
